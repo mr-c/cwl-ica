@@ -152,6 +152,13 @@ inputs:
     secondaryFiles:
       - pattern: ".tbi"
         required: true
+  # Enable gc metrics
+  gc_metrics_enable:
+    label: gc metrics enable
+    type: boolean?
+    doc: |
+      Enable gc metrics
+    default: true
   # Location of license
   lic_instance_id_location:
     label: license instance id location
@@ -193,6 +200,8 @@ steps:
         source: enable_rna_quantification
       enable_rna_gene_fusion:
         source: enable_rna_gene_fusion
+      gc_metrics_enable:
+        source: gc_metrics_enable
       lic_instance_id_location:
         source: lic_instance_id_location
     out:

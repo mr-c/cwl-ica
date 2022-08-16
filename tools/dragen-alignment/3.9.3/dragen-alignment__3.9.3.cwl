@@ -683,6 +683,16 @@ inputs:
     inputBinding:
       prefix: "--remove-duplicates"
       valueFrom: "$(self.toString())"
+  # GC Bias reporting
+  gc_metrics_enable:
+    label: gc metrics enable
+    type: boolean?
+    doc: |
+      Enable gc metrics
+    default: true
+    inputBinding:
+      prefix: "--gc-metrics-enable"
+      valueFrom: "$(self.toString())"
   # Tag generation
   generate_md_tags:
     label: generate md tags

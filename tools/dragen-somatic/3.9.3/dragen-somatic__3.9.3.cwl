@@ -1126,6 +1126,16 @@ inputs:
     inputBinding:
       prefix: "--enable-rna"
       valueFrom: "$(self.toString())"
+  # GC Bias reporting
+  gc_metrics_enable:
+    label: gc metrics enable
+    type: boolean?
+    doc: |
+      Enable gc metrics
+    default: true
+    inputBinding:
+      prefix: "--gc-metrics-enable"
+      valueFrom: "$(self.toString())"
   # Miscell
   lic_instance_id_location:
     label: license instance id location

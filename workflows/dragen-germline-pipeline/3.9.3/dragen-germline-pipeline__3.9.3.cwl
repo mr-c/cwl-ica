@@ -370,6 +370,16 @@ inputs:
       The default value is 1000 and suggested for WES samples. If using samples with less coverage, you can use a
       lower threshold value.
     type: int?
+  # GC Bias reporting
+  gc_metrics_enable:
+    label: gc metrics enable
+    type: boolean?
+    doc: |
+      Enable gc metrics
+    default: true
+    inputBinding:
+      prefix: "--gc-metrics-enable"
+      valueFrom: "$(self.toString())"
   # Miscellaneous options
   lic_instance_id_location:
     label: license instance id location
@@ -489,6 +499,8 @@ steps:
         source: hla_zygosity_threshold
       hla_min_reads:
         source: hla_min_reads
+      gc_metrics_enable:
+        source: gc_metrics_enable
       lic_instance_id_location:
         source: lic_instance_id_location
     out:

@@ -362,6 +362,13 @@ inputs:
     doc: |
       Produce output file that preserves original order of reads in the input file.
     type: boolean?
+  # GC Bias reporting
+  gc_metrics_enable:
+    label: gc metrics enable
+    type: boolean?
+    doc: |
+      Enable gc metrics
+    default: true
   # Verbosity
   verbose:
     label: verbose
@@ -483,6 +490,8 @@ steps:
         source: enable_sort
       preserve_map_align_order:
         source: preserve_map_align_order
+      gc_metrics_enable:
+        source: gc_metrics_enable
       verbose:
         source: verbose
     out:

@@ -114,7 +114,7 @@ projects:
           - name: 3.9.3
             path: 3.9.3/dragen-germline__3.9.3.cwl
             ica_workflow_version_name: 3.9.3
-            modification_time: 2022-03-07T09:17:50UTC
+            modification_time: 2022-08-16T05:35:29UTC
             run_instances: []
       - name: custom-create-tso500-samplesheet
         path: custom-create-tso500-samplesheet
@@ -189,7 +189,7 @@ projects:
           - name: 3.9.3
             path: 3.9.3/dragen-alignment__3.9.3.cwl
             ica_workflow_version_name: 3.9.3
-            modification_time: 2022-03-04T12:52:17UTC
+            modification_time: 2022-08-16T05:33:12UTC
             run_instances: []
       - name: arriba-drawing
         path: arriba-drawing
@@ -249,7 +249,7 @@ projects:
           - name: 3.9.3
             path: 3.9.3/dragen-transcriptome__3.9.3.cwl
             ica_workflow_version_name: 3.9.3
-            modification_time: 2022-05-12T22:54:36UTC
+            modification_time: 2022-08-16T05:48:17UTC
             run_instances: []
       - name: umccrise
         path: umccrise
@@ -289,7 +289,7 @@ projects:
           - name: 3.9.3
             path: 3.9.3/dragen-somatic__3.9.3.cwl
             ica_workflow_version_name: 3.9.3
-            modification_time: 2022-05-13T08:06:49UTC
+            modification_time: 2022-08-16T05:34:32UTC
             run_instances:
               - wfr.63351b7bd8f9431db0a58c27d5538f0e
               - wfr.4aef0ef9d4154f7a9a3a8138c12dbd6f

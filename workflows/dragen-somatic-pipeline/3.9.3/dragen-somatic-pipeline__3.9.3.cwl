@@ -582,6 +582,13 @@ inputs:
     doc: |
       Set this option for running RNA samples through T/N workflow
     type: boolean?
+  # GC Bias reporting
+  gc_metrics_enable:
+    label: gc metrics enable
+    type: boolean?
+    doc: |
+      Enable gc metrics
+    default: true
   # Miscell
   lic_instance_id_location:
     label: license instance id location
@@ -756,6 +763,8 @@ steps:
         source: hla_min_reads
       enable_rna:
         source: enable_rna
+      gc_metrics_enable:
+        source: gc_metrics_enable
     out:
       - id: dragen_somatic_output_directory
       - id: tumor_bam_out
