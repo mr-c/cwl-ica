@@ -1,0 +1,17 @@
+{
+  "name": "typescript-expressions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get_bam_file_from_directory.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "compile": "tsc",
+    "test": "jest"	  
+  },
+  "directories": {
+    "bin": "/home/alexiswl/mambaforge/envs/cwl-ica/lib/node_modules/.bin/",
+    "lib": "/home/alexiswl/mambaforge/envs/cwl-ica/lib/node_modules"
+  }
+}

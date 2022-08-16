@@ -1,0 +1,64 @@
+type: record
+name: bclconvert-settings
+
+fields:
+  adapter_read_1:
+    label: adapter_read_1
+    doc: |
+      adapter_read_1
+    type: string?
+  adapter_read_2:
+    label: adapter_read_2
+    doc: |
+      adapter_read_2
+    type: string?
+  adapter_behavior:
+    label: adapter_behavior
+    doc: |
+      adapter_behavior
+    type: string?
+  adapter_stringency:
+    label: adapter_stringency
+    doc: |
+      adapter_stringency
+    type: string?
+  minimum_adapter_overlap:
+    label: minimum_adapter_overlap
+    doc: |
+      minimum_adapter_overlap
+    type: int?
+  barcode_mismatches_index_1:
+    label: barcode_mismatches_index_1
+    doc: |
+      barcode_mismatches_index_1
+    type: int?
+  barcode_mismatches_index_2:
+    label: barcode_mismatches_index_2
+    doc: |
+      barcode_mismatches_index_2
+    type: int?
+  create_fastq_for_index_reads:
+    label: create_fastq_for_index_reads
+    doc: |
+      create_fastq_for_index_reads
+    type: boolean?
+  minimum_trimmed_read_length:
+    label: minimum_trimmed_read_length
+    doc: |
+      minimum_trimmed_read_length
+    type: int?
+  mask_short_reads:
+    label: mask_short_reads
+    doc: |
+      mask_short_reads
+    type: string?
+  override_cycles:
+    label: override_cycles
+    doc: |
+      override_cycles
+    type: string?
+  trim_umi:
+    label: trim_umi
+    doc: |
+      trim_umi
+    type: boolean?

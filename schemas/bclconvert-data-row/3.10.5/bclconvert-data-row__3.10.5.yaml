@@ -1,0 +1,34 @@
+type: record
+name: bclconvert-data-row
+
+fields:
+  lane:
+    label: lane
+    doc: |
+      lane
+    type: int
+  sample_id:
+    label: sample_id
+    doc: |
+      sample_id
+    type: string
+  index:
+    label: index
+    doc: |
+      index
+    type: string
+  index2:
+    label: index2
+    doc: |
+      index2
+    type: string?
+  sample_project:
+    label: sample_project
+    doc: |
+      sample_project
+    type: string
+  override_cycles:
+    label: override cycles
+    doc: |
+      Per-sample override cycles settings
+    type: string

@@ -67,6 +67,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+scratch/
 
 # Sphinx documentation
 docs/_build/
@@ -140,9 +141,15 @@ scratches/
 # Items in expressions / tools and workflows that don't end in .cwl
 expressions/*/*/*
 !expressions/*/*/*.cwl
+!expressions/*/*/typescript-expressions/
+expressions/*/*/typescript-expressions/node_modules/
+expressions/*/*/typescript-expressions/coverage/
 
 tools/*/*/*
 !tools/*/*/*.cwl
+!tools/*/*/typescript-expressions/
+tools/*/*/typescript-expressions/node_modules/
+tools/*/*/typescript-expressions/coverage/
 
 workflows/*/*/*
 !workflows/*/*/*.cwl
@@ -150,6 +157,7 @@ workflows/*/*/*
 #### Items in schemas that don't end in .yaml
 schemas/*/*/*
 !schemas/*/*/*.yaml
+!schemas/*/*/*.ts
 
 #### Items in config that don't end in .yaml
 config/*/*/*

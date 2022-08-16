@@ -1,0 +1,17 @@
+{
+  "name": "typescript-expressions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bclconvert__3.10.5.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-jest": "^28.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1"
+  }
+}
